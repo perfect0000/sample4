@@ -1,0 +1,249 @@
+.navbar ul {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 45px;
+}
+
+.navbar li a:hover {
+    background-color: #cf9923;
+    padding: 10px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.login a {
+    text-align: right;
+}
+
+.navbar {
+    position: relative;
+
+}
+
+.dropbtn {
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translate(120%, 7%);
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+.dropdown-content a:hover{background-color: #ddd;}
+
+.dropbtn:hover .dropdown-content{display: block;}
+
+.dropbtn:hover .dropbtn {background-color: #e7b446;}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+    text-align: left;
+}
+.pt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    font-size: 35px;   
+}
+
+.vms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 150%);
+    font-size: 13px;
+}
+
+.vos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(4.5%, 150%);
+    font-size: 13px;
+}   
+
+.vos:hover {
+    color: #adaaaa;
+}
+
+.vms:hover {
+    color:#adaaaa;
+}
+
+div.banner img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+div.welcome img {
+    width: 100%;
+    opacity: 0.6;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.services img {
+    width: 20%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.grid-container{
+    display: flex;
+    grid-row: 3;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.card {
+    width: 50%;
+    height: 100%;
+    background: rgb(238, 208, 148);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+     rgba(0, 0, 0, 0) 0px -3px 0px inset;
+     margin: 0 auto;
+}
+
+.card h4{
+    color: #292828;
+}
+
+.card2 {
+    width: 50%;
+    height: 100%;
+    background: rgb(241, 203, 125);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+     rgba(0, 0, 0, 0) 0px -3px 0px inset;
+     margin: 0 auto;
+}
+
+.card2 h4{
+    color: #292828;
+}
+
+.card3 {
+    width: 50%;
+    height: 100%;
+    background: rgb(241, 195, 102);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+     rgba(0, 0, 0, 0) 0px -3px 0px inset;
+     margin: 0 auto;
+}
+
+.card3 h4{
+    color: #292828;
+}
+
+
+.PS {
+    font-size: 30px;
+    transform:translate(17%,-315px);
+    background-color: #ffffff;
+  }
+  
+.pck {
+    font-size: 20px;
+    transform: translate(33%, -310px);
+}
+
+div.services button{
+    background-color: #cf9923;
+    border: none;
+    color: #ffffff;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transform: translate(440px, -260px);
+}
+
+div.services button:hover {
+    background-color: #e7b446;
+}
+
+.grid-container img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 5%;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.last h2, h4 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.left-last p {
+    text-align: center;
+    transform: translate(-465px, -320px);
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.right-last p {
+    text-align: center;
+    transform: translate(465px, -540px);
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+}
+
+p{
+    text-align: center;
+    color: #292828;
+}
+
+.learn-more{
+    border-style: solid;
+    border-color: #ddd;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.last img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
